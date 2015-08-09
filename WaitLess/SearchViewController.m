@@ -40,7 +40,7 @@
     
     [self.view addGestureRecognizer:tap];
 }
-- (void) viewDidAppear:(BOOL)animated {
+- (void) viewWillAppear:(BOOL)animated {
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
 }
 - (IBAction)serviceAction:(id)sender {
