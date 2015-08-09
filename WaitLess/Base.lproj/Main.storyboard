@@ -38,19 +38,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="please enter company name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OiC-dH-Yhj">
-                                <rect key="frame" x="189" y="236" width="222" height="50"/>
+                                <rect key="frame" x="206" y="244" width="188" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="222" id="8sx-uL-z7m"/>
-                                    <constraint firstAttribute="height" constant="50" id="Uql-KL-jIO"/>
-                                    <constraint firstAttribute="width" constant="222" id="rw7-v3-jp2"/>
+                                    <constraint firstAttribute="height" constant="34" id="Uql-KL-jIO"/>
+                                    <constraint firstAttribute="width" constant="188" id="rw7-v3-jp2"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8sx-uL-z7m"/>
+                                    </mask>
+                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iac-Q4-I7n">
-                                <rect key="frame" x="250" y="416" width="100" height="100"/>
+                                <rect key="frame" x="250" y="408" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="TSl-9o-xly"/>
                                     <constraint firstAttribute="height" constant="100" id="Wsu-Ky-bnS"/>
@@ -65,7 +70,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Service" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHs-8e-Jzp">
-                                <rect key="frame" x="255" y="437" width="90" height="56"/>
+                                <rect key="frame" x="255" y="429" width="90" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="Pjf-IT-mUz"/>
                                     <constraint firstAttribute="width" constant="90" id="YI2-4I-ew3"/>
